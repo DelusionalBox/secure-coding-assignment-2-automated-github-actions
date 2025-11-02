@@ -22,6 +22,6 @@ jobs:
         uses: shundor/python-bandit-scan@main
         with:
           path: "."
-          level: high
-          confidence: high
+          level: low
+          confidence: low
           exit_zero: true           
